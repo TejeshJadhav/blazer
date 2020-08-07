@@ -1,0 +1,12 @@
+{% extends "projects/_base.html" %}
+
+{% block title %} Blazer | Logout {% endblock %}
+{% block content %}
+<div class="heros bg-gray" style="height: 100%; padding-top: 18%;">
+    <div class="hero-body">
+        <h1 class="text-center">Logged Out</h1>
+        <p class="text-center">Thank you for enjoying this site <i class="icon icon-emoji"></i></p>
+        <p class="text-center"><a href="{% url 'login'%}">Click here to login again.</a></p>
+    </div>
+</div>
+{% endblock %}
